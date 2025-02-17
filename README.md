@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to integer overflow in Hack. The `foo` function adds 1 to its input.  While seemingly simple, if the input is sufficiently large, adding 1 can cause an integer overflow leading to unpredictable behavior. The solution focuses on handling this by implementing appropriate checks for potential overflow.
